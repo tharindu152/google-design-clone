@@ -26,7 +26,7 @@ This project was created using CSS3 and HTML5. Device viewport responsiveness an
 <img width="400" src="https://github.com/tharindu152/Design-Clones/blob/main/Google%20Design%20Clone/img/Light%20theme.png">
 - Dark color scheme
 <img width="400" src="https://github.com/tharindu152/Design-Clones/blob/main/Google%20Design%20Clone/img/Dark%20theme.png">
-[Click here for the Live Demo](https://myplaygroundthatindu.github.io/google-design-clone/)
+[Click here for the Live Demo](https://tharindu152.github.io/google-design-clone/)
 
 ### License
 All product logos, designs, and trademarks, with the exception of the code, are copyrighted and belong to their respective owners. 
