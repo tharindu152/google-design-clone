@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Google</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <header>
+        <div id="mini-nav-bar">
+            <ul>
+                <li><ion-icon name="reorder-three-outline"></ion-icon></li>
+                <li>ALL</li>
+                <li>IMAGES</li>
+            </ul>
+        </div>
+        <div id="nav-bar">
+            <ul>
+                <li class="nav-item-lg">Gmail</li>
+                <li class="nav-item-lg">Images</li>
+                <li>
+                    <ion-icon name="apps" title="Google Apps"></ion-icon>
+                </li>
+                <li><button>Sign in</button></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="search-area">
+            <div id="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google">
+            </div>
+            <div id="search-bar">
+                <ion-icon name="search-outline"></ion-icon>
+                <form action="https://www.google.com/search?" method="get" enctype="application/x-www-form-urlencoded">
+                    <input type="text" name="q">
+                </form>
+                <div id="search-bar-btns">
+                    <img src="img/mic.png" alt="alexa" title="Search by Voice">
+                    <img src="img/photosearch.png" alt="google-lense" title="Search by Image">
+                </div>
+            </div>
+            <div id="search-btns">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+            <div id="search-lang">
+                <label for="search-lang">Google offered in: <a>සිංහල</a> <a>தமிழ்</a></label>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="row-1">
+            <label for="row-1">For testing purposes</label>
+        </div>
+        <div id="row-2">
+            <div id="row-2-1">
+                <label for="row-2-1">About</label>
+                <label for="row-2-1">Advertising</label>
+                <label for="row-2-1">Business</label>
+                <label for="row-2-1">How Search works</label>
+            </div>
+            <div id="row-2-2">
+                <label for="row-2-2">Privacy</label>
+                <label for="row-2-1">Terms</label>
+                <label for="row-2-1">Settings</label>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
