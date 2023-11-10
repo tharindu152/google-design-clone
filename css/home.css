@@ -6,7 +6,7 @@
 header {
     /* background-color: yellow; */
     height: 50px;
-    position: relative;
+    position: relaftive;
 }
 
 header #mini-nav-bar {
@@ -77,20 +77,18 @@ header #nav-bar ul li button:hover {
     background-color: rgb(19, 90, 184);
 }
 
+
 main #search-area {
     height: calc(100vh - 142px);
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-   
 }
 
 main #search-area #logo img{
-    height: 100px;
     margin-bottom: 20px;
-    margin-top: 70%;
-    
+    margin-top: 25vh;
 }
 
 main #search-area #search-bar {
@@ -108,7 +106,7 @@ main #search-area #search-bar:hover {
 }
 
 main #search-area #search-bar ion-icon {
-    color: rgb(98, 101, 104, 0.8);
+    color: rgba(120, 123, 126, 0.8);
     margin-left: 13px;
 }
 
@@ -125,7 +123,6 @@ main #search-area #search-bar img {
     height: 30px;
     cursor: pointer;
 }
-
 
 main #search-area #search-btns button{
     border: 1px solid rgb(98, 101, 104, 0.0);
@@ -199,6 +196,11 @@ footer #row-2 label:hover {
 }
 
 @media all and (max-width:992px) {
+    main #search-area #logo img{
+        margin-top: 20vh;
+    }
+
+
     main #search-area #search-bar {
         width: 450px;
         height: 35px;
@@ -214,6 +216,10 @@ footer #row-2 label:hover {
 }
 
 @media all and (max-width:614px) {
+    main #search-area #logo img{
+        margin-top: 15vh;
+    }
+
     footer #row-2 {
         justify-content: center;
     }
@@ -221,6 +227,10 @@ footer #row-2 label:hover {
 
 
 @media all and (max-width:567px) {
+    main #search-area #logo img{
+        margin-top: 10vh;
+    }
+
     header #mini-nav-bar {
        display: flex;
        height: 35px;
@@ -280,7 +290,7 @@ footer #row-2 label:hover {
 
 @media all and (prefers-color-scheme: dark) {
     :root {
-        background-color: black;
+        background-color: rgb(32,33,36);
         color: white !important;
     }
 
@@ -294,6 +304,11 @@ footer #row-2 label:hover {
 
     header #nav-bar ul li button{
         color: black;
+        background-color: rgb(138,180,248);
+    }
+
+    header #nav-bar ul li button:hover {
+        background-color: rgb(138,180,248);
     }
 
     main #search-area #logo img{
@@ -306,24 +321,35 @@ footer #row-2 label:hover {
         background-color: rgb(48,49,52);
     }
 
+    main #search-area #search-btns button:hover {
+        border: 1px solid rgba(166, 167, 172, 0.5);
+    }
+
+
     main #search-area #search-bar input {
-        background-color: black;
+        background-color: rgb(32,33,36);
     }
 
     main #search-area #search-bar {
-        border-color: rgb(48,49,52);
+        border-color: rgb(79, 80, 85);
     }
 
     main #search-area #search-lang{ 
-        color:  rgb(112, 113, 117);
+        color:  rgb(166, 167, 172);
     }
 
     main #search-area #search-lang label a{ 
-        color: rgb(19, 90, 184);
+        color: rgb(138,180,248)
+
     }
 
     footer {
         background-color: rgb(23,23,23);
+        color: rgb(226,226,224);
+    }
+
+    footer #row-1 {
+        border-bottom: 1px solid rgb(60,64,67);
     }
 
     
