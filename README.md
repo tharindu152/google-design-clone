@@ -21,11 +21,11 @@ This project was created using CSS3 and HTML5. Device viewport responsiveness an
 
 ### Live Demo
 - Responsive to the device viewport
-<img width="200" src="https://github.com/tharindu152/Design-Clones/blob/main/Google%20Design%20Clone/img/Responsive.png">
+<img width="200" src="https://github.com/tharindu152/google-design-clone/blob/main/img/Responsive.png">
 - Light color scheme
-<img width="400" src="https://github.com/tharindu152/Design-Clones/blob/main/Google%20Design%20Clone/img/Light%20theme.png">
+<img width="400" src="https://github.com/tharindu152/google-design-clone/blob/main/img/Light%20theme.png">
 - Dark color scheme
-<img width="400" src="https://github.com/tharindu152/Design-Clones/blob/main/Google%20Design%20Clone/img/Dark%20theme.png">
+<img width="400" src="https://github.com/tharindu152/google-design-clone/blob/main/img/Dark%20theme%20new.png">
 
 [Click here for the Live Demo](https://tharindu152.github.io/google-design-clone/)
 
